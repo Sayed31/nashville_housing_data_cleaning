@@ -4,7 +4,7 @@ This project focuses on preparing and cleaning Nashville housing data for analys
 
 ### File Descriptions:
 
-1. **preparing_csv_for_importing.ipynb**: This Jupyter Notebook file demonstrates the process of preparing the dataset for importing into MySQL. It involves reading the original xlsx file, handling missing values, and exporting the cleaned data to a new CSV file (`nashville_housing.csv`).
+1. **preparing_csv_for_importing.ipynb**: This Jupyter Notebook file demonstrates the process of preparing the dataset for importing into MySQL. It involves reading the original xlsx file, handling missing values to prevent errors during import into MySQL database, and exporting the cleaned data to a new CSV file (`nashville_housing.csv`).
 
 2. **importing_csv.sql**: This SQL script creates a MySQL database named `nashville_housing` and defines a table structure to store the cleaned housing data. It then loads the data from the CSV file into the MySQL table for further analysis.
 
